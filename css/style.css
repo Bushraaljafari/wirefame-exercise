@@ -6,6 +6,8 @@ header{
 background-color: grey;
 height: 150px;
 width: 100%;
+padding-top: 35px;
+padding-left: 20px;
 }
 
 
@@ -35,6 +37,7 @@ main nav ul{
     display: inline-block;
 
 
+
 }
 #img2{
     width: 100%;
@@ -56,15 +59,31 @@ footer{
     height: 100px;
     background-color: grey;
     /* position: relative; */
-    margin-top: 60px;
+   
 }
-#call  :hover{
+#call  {
     text-decoration: none;
-    background-color: rgb(53, 48, 48);
+    color: black;
+    border: rgb(94, 84, 84) solid 3px;
+    background-color: rgb(136, 120, 120);
+   padding: 20px;
+  /* position: fixed;*/
+   margin-bottom: 200px;
+  
 }
 
 nav ul img {
    
-    width: 100%;
+   width: 100%;
+   display: flex;
+  justify-content: space-between;
+}
 
+
+#p1{
+    font-weight: bold;
+    font-size: large;
+}
+#p2{
+    font-style: italic;
 }
